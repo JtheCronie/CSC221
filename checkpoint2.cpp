@@ -9,7 +9,7 @@ then display them on the screen.
 
 
 #include <iostream>
-
+#include <string>
 int main()
 {
     char firstInitial[] = "J";

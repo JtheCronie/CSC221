@@ -1,0 +1,58 @@
+// Chapter3_Problem2.cpp : This file contains the 'main' function. Program execution begins 
+
+/* File Name: Chapter3_Problem2.cpp
+Programmer: Jason Cronenwett
+Date: 03/08/2026
+Requirements:
+Produce a math tutor program that displays random numbers for the student to fill out. 
+
+0. Setup program
+    a.include statements for library
+    b. add "using namespace" statement
+    c. declare variables
+    d.initialize variable if needed
+
+2. Calculate formula
+    a. Display two random numbers
+    b. Pause for student to answer
+
+3. Get info from user
+    a. Student presses key for the answer
+Display results.    
+    a. The program displays the correct solution
+
+
+
+*/
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+
+
+int main() {
+
+
+int num1;
+int num2;
+string pause;
+
+cout << " Please enter first number ";
+cin >> num1;
+cin.ignore();
+
+cout << " Please enter a second number ";
+cin >> num2;
+cin.ignore();
+
+cout << " Press ENTER when you're ready";
+getline(cin, pause);
+
+cout << " The answer is  " << num1 + num2 << endl;
+
+return 0;
+
+
+}

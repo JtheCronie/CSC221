@@ -1,0 +1,36 @@
+#include <iostream>
+#include <random>
+#include <iomanip>
+
+using namespace std;
+
+const int repeatTimes = 1000;
+int main()
+
+{
+
+    std::random_device rd;
+    std::uniform_int_distribution<int> ud(1, 6);
+    int die1, die2;
+    double ratio;
+
+    for (int numberOFRolls = 1; numberOFRolls <= repeatTimes; numberOFRolls++)
+
+    {
+    
+    die1 = ud(rd);
+    die2 - ud(rd);
+
+    cout << setw(15) << left << "1st die";
+    cout << setw(15) << right << die1 << endl;
+    cout << setw(15) << left << "1st die";
+    cout << setw(15) << right << die2 << endl;
+    cout << setw(15) << left << "Total";
+    cout << setw(15) << right << die1+die2 << endl;
+    cout << setw(15) << left << "Probability: ";
+    cout << setw(15) << right << 
+   
+    cout << endl;
+    }
+
+}
