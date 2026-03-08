@@ -14,12 +14,20 @@ Calculate monthly payments
     d.initialize variable if needed.
 
 1. Get info from user.
-    a. 
+    a. User enters how much the interest rate is
+    b. User enters the amount of payments
+    c. User enters the amount of loan
 
-2. Calculate formula
+2. Calculate formula for"
+    a. Loan amount
+    b. monthly interest rate
+    c. number of payments
+    d. monthly payment
+    e. amount paid back
+    f. interest paid
     
 Display results.    
-    a. Output 
+    a. read out of the formulas 
 
 
 
